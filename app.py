@@ -9,8 +9,8 @@ app = Flask(__name__)
 
 @app.route("/htop")
 def htop():
-    name = "Chinni pranav guptha"  # Replace with your full name
-    username = os.getenv("USER", os.getenv("USERNAME", "Pranav"))
+    name = "Khundhan Bhargava"  # Replace with your full name
+    username = os.getenv("USER", os.getenv("USERNAME", "Bhargava"))
 
     # Get server time in IST
     ist = pytz.timezone("Asia/Kolkata")
